@@ -1,5 +1,6 @@
 html {
   box-sizing: border-box;
+  font-family: Open Sans;
 }
 
 *, *::before, *::after {
@@ -9,4 +10,11 @@ html {
 .img-flex {
   display: block;
   width: 100%;
+}
+
+.banner {
+  color: #fff;
+  background-color: rgba(0, 0, 0, .5);
+  font-size: 4rem;
+  position: absolute;
 }
